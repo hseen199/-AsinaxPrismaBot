@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script>
+      (function() {
+        var lang = localStorage.getItem('language') || 'en';
+        document.documentElement.lang = lang;
+        document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+      })();
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <title>ASINAX CRYPTO AI - منصة التداول الجماعي الذكية</title>
+    <meta name="description" content="ASINAX CRYPTO AI - منصة تداول جماعي ذكية مع محفظة مشتركة وتحليل بالذكاء الاصطناعي. تتبع أرباحك وحصصك في الوقت الفعلي." />
+    <meta property="og:title" content="ASINAX CRYPTO AI - منصة التداول الجماعي الذكية" />
+    <meta property="og:description" content="منصة تداول آلي ذكية مع ذكاء اصطناعي لتحليل السوق وإدارة المخاطر" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/og-image.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
